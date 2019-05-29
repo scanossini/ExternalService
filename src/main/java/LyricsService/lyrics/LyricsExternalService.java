@@ -1,6 +1,6 @@
-package LyricsService.external;
+package LyricsService.lyrics;
 
-import LyricsService.external.lyrics.Lyrics;
+import LyricsService.lyrics.lyrics.Lyrics;
 
 public interface LyricsExternalService {
     Lyrics getLyric(String song, String artist) throws Exception;

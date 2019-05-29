@@ -1,6 +1,6 @@
-package LyricsService.external;
+package LyricsService.lyrics;
 
-import LyricsService.external.lyrics.LyricsModule;
+import LyricsService.lyrics.lyrics.LyricsModule;
 
 public class LyricsExternalModule {
 
