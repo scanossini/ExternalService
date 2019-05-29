@@ -5,7 +5,7 @@ import com.google.gson.JsonObject;
 
 class JsonToLyricResolver implements JsonResolver{
 
-    JsonToLyricResolver() { }
+    JsonToLyricResolver() {}
 
     private final Gson gson = new Gson();
 

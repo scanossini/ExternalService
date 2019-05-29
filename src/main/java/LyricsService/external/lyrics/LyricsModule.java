@@ -1,7 +1,6 @@
 package LyricsService.external.lyrics;
 
 import LyricsService.external.LyricsExternalService;
-
 import retrofit2.Retrofit;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 

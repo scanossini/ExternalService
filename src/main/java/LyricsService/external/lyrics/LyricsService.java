@@ -1,14 +1,11 @@
 package LyricsService.external.lyrics;
 
 import LyricsService.external.LyricsExternalService;
-
 import retrofit2.Response;
 
 class LyricsService implements LyricsExternalService {
 
     private final LyricsAPI lyricsAPI;
-
-    private Lyrics lyrics;
 
     private JsonResolver lyricResolver;
 
@@ -16,7 +13,6 @@ class LyricsService implements LyricsExternalService {
         this.lyricResolver = lyricResolver;
         this.lyricsAPI = lyricsAPI;
     }
-
 
     public Lyrics getLyric(String song, String artist) {
         Lyrics lyrics = null;
@@ -33,5 +29,4 @@ class LyricsService implements LyricsExternalService {
     private Response<String> getLyricsFromService(String song, String artist) throws Exception {
         return lyricsAPI.getLyrics(artist, song).execute();
     }
-
 }

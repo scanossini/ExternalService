@@ -1,6 +1,5 @@
 package LyricsService.external;
 
-
 import LyricsService.external.lyrics.Lyrics;
 
 public interface LyricsExternalService {
