@@ -1,4 +1,4 @@
-package LyricsService.external.lyrics;
+package LyricsService.lyrics.lyrics;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;

@@ -1,4 +1,4 @@
-package LyricsService.external.lyrics;
+package LyricsService.lyrics.lyrics;
 
 public class Lyrics{
 

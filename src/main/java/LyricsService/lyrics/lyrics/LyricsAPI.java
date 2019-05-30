@@ -1,4 +1,4 @@
-package LyricsService.external.lyrics;
+package LyricsService.lyrics.lyrics;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
