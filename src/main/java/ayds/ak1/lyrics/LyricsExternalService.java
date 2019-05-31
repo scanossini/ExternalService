@@ -1,6 +1,6 @@
-package LyricsService.lyrics;
+package ayds.ak1.lyrics;
 
-import LyricsService.lyrics.lyrics.Lyrics;
+import ayds.ak1.lyrics.lyricsAPI.Lyrics;
 
 public interface LyricsExternalService {
     Lyrics getLyric(String song, String artist) throws Exception;

@@ -1,6 +1,6 @@
-package LyricsService.lyrics;
+package ayds.ak1.lyrics;
 
-import LyricsService.lyrics.lyrics.LyricsModule;
+import ayds.ak1.lyrics.lyricsAPI.LyricsModule;
 
 public class LyricsExternalModule {
 
