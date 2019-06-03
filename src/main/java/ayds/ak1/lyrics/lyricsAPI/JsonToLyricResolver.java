@@ -1,4 +1,4 @@
-package LyricsService.lyrics.lyrics;
+package ayds.ak1.lyrics.lyricsAPI;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;

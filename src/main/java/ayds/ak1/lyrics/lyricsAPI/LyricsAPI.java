@@ -1,4 +1,4 @@
-package LyricsService.lyrics.lyrics;
+package ayds.ak1.lyrics.lyricsAPI;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

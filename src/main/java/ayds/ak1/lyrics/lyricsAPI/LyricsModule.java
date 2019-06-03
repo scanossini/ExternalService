@@ -1,6 +1,6 @@
-package LyricsService.lyrics.lyrics;
+package ayds.ak1.lyrics.lyricsAPI;
 
-import LyricsService.lyrics.LyricsExternalService;
+import ayds.ak1.lyrics.LyricsExternalService;
 import retrofit2.Retrofit;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 

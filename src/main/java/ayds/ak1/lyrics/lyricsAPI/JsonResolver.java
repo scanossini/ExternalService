@@ -1,4 +1,4 @@
-package LyricsService.lyrics.lyrics;
+package ayds.ak1.lyrics.lyricsAPI;
 
 public interface JsonResolver {
 
